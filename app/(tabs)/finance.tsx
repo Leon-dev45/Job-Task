@@ -1,12 +1,15 @@
 import { SafeAreaView, StyleSheet, Text } from "react-native";
+import React from "react";
 
-export default function HomeScreen() {
+const Finance = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.heading}>This is the home page</Text>
+      <Text style={styles.heading}>This is the Finance Page</Text>
     </SafeAreaView>
   );
-}
+};
+
+export default Finance;
 
 const styles = StyleSheet.create({
   container: {

@@ -1,12 +1,15 @@
 import { SafeAreaView, StyleSheet, Text } from "react-native";
+import React from "react";
 
-export default function HomeScreen() {
+const Pitch = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.heading}>This is the home page</Text>
+      <Text style={styles.heading}>This is the Pitching Page</Text>
     </SafeAreaView>
   );
-}
+};
+
+export default Pitch;
 
 const styles = StyleSheet.create({
   container: {
